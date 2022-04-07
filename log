@@ -41,3 +41,9 @@ ju.,  7 de abr. de 2022 12:52:41:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 b3f6256
+ju.,  7 de abr. de 2022 12:55:39: 
+ hashmap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+25409d7
