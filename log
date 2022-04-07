@@ -25,3 +25,9 @@ ju.,  7 de abr. de 2022 12:49:11:
  tests:  0|6
 total_score: 0/70
 c2090c3
+ju.,  7 de abr. de 2022 12:50:57: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+922ce9a
