@@ -1,0 +1,11 @@
+ju.,  7 de abr. de 2022 12:42:37: 
+ hashmap.c | 15 ++++++++++++---
+ 1 file changed, 12 insertions(+), 3 deletions(-)
+In file included from test.c:4:0:
+hashmap.c: In function 'createMap':
+hashmap.c:64:24: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+     nuevoMapa->current = NULL;
+                        ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7d7022e
