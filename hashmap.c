@@ -53,7 +53,7 @@ void insertMap(HashMap * map, char * key, void * value) {
     else{
         createPair(key, value);
     }
-    
+    map->size += 1;
     
 }
 
