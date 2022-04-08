@@ -71,17 +71,25 @@ HashMap * createMap(long capacity) {
     nuevoMapa->size = 0;
     nuevoMapa->current = -1;
     nuevoMapa->buckets = (Pair**) calloc(capacity,sizeof(Pair*));
-    
+
     return nuevoMapa;
 }
 
 void eraseMap(HashMap * map,  char * key) {    
-
+    
 
 }
 
 Pair * searchMap(HashMap * map,  char * key) {   
-
+    long index = hash(key, map->capacity );
+    
+    while(map->buckets[index]!=NULL && map->buckets[index]->key != NULL){
+        if(is_equal(key, map->buckets[index]->key)){
+            map->current = index;
+            return map->buckets[index];
+        }
+        index = (index + 1) % map->capacity;
+    }
 
     return NULL;
 }
