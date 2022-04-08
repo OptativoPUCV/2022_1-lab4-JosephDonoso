@@ -46,7 +46,7 @@ void insertMap(HashMap * map, char * key, void * value) {
         index = (index + 1) % map->capacity;
     }
 
-    if(map->buckets[index] != NULL){
+    if(map->buckets[index]){
         map->buckets[index]->key = key;
         map->buckets[index]->value = value;
     }
@@ -76,7 +76,9 @@ HashMap * createMap(long capacity) {
 }
 
 void eraseMap(HashMap * map,  char * key) {    
-    
+    if(searchMap(map, key)){
+
+    }
 
 }
 
