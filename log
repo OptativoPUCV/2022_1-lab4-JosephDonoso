@@ -65,3 +65,9 @@ ju.,  7 de abr. de 2022 13:08:35:
  tests:  5|4
 total_score: 30/70
 c1a36e2
+vi.,  8 de abr. de 2022 16:28:21: 
+ hashmap.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  5|4
+total_score: 30/70
+8e32de0
