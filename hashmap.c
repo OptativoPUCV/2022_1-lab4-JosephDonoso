@@ -100,9 +100,10 @@ Pair * firstMap(HashMap * map) {
     while( map->buckets[index] == NULL || map->buckets[index]->key == NULL || index == (map->capacity - 1) ){
         index += 1;
     }
+
     if(map->buckets[index] != NULL && map->buckets[index]->key != NULL){
-        return map->buckets[index];
         map->current = index;
+        return map->buckets[index];
     }
     return NULL;
 }
