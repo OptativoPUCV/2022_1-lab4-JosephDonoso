@@ -100,3 +100,9 @@ vi.,  8 de abr. de 2022 18:34:07:
  tests:  10|3
 total_score: 40/70
 eea62ac
+vi.,  8 de abr. de 2022 18:34:37: 
+ hashmap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  10|3
+total_score: 40/70
+3537bfc

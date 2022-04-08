@@ -105,6 +105,7 @@ Pair * firstMap(HashMap * map) {
         map->current = index;
         return map->buckets[index];
     }
+    map->current = index;
     return NULL;
 }
 
