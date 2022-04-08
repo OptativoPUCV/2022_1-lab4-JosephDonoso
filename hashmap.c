@@ -106,6 +106,12 @@ Pair * firstMap(HashMap * map) {
 }
 
 Pair * nextMap(HashMap * map) {
-
+    
+    while( map->buckets[map->current] == NULL || map->buckets[map->current]->key == NULL || map->current == (map->capacity - 1) ){
+        map->current += 1;
+    }
+    if(map->buckets[map->current] != NULL && map->buckets[map->current]->key != NULL){
+        return map->buckets[map->current];
+    }
     return NULL;
 }
