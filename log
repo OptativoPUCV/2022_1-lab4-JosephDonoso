@@ -82,3 +82,9 @@ vi.,  8 de abr. de 2022 18:21:01:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 29b7786
+vi.,  8 de abr. de 2022 18:32:09: 
+ hashmap.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+ tests:  8|3
+total_score: 40/70
+f00f1f1
