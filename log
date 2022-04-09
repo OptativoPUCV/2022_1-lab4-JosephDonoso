@@ -181,3 +181,9 @@ sá.,  9 de abr. de 2022 15:06:54:
  tests:  16|1
 total_score: 60/70
 b0e60a9
+sá.,  9 de abr. de 2022 15:20:42: 
+ hashmap.c | 14 +++++++++-----
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+ tests:  17|0
+total_score: 70/70
+6ad3112
