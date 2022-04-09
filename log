@@ -226,3 +226,9 @@ sá.,  9 de abr. de 2022 17:31:46:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 b9af963
+sá.,  9 de abr. de 2022 17:32:13: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  17|0
+total_score: 70/70
+7762246
