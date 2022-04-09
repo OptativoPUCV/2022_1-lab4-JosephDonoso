@@ -204,3 +204,14 @@ sá.,  9 de abr. de 2022 15:27:09:
  tests:  17|0
 total_score: 70/70
 618236d
+sá.,  9 de abr. de 2022 17:25:52: 
+ hashmap.c | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+In file included from test.c:4:0:
+hashmap.c: In function 'enlarge':
+hashmap.c:83:13: error: implicit declaration of function 'insert' [-Werror=implicit-function-declaration]
+             insert(map, aux[cont]->key, aux[cont]->value);
+             ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+cc9be79
