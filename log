@@ -215,3 +215,9 @@ hashmap.c:83:13: error: implicit declaration of function 'insert' [-Werror=impli
 cc1.exe: all warnings being treated as errors
 Compilation failed
 cc9be79
+sá.,  9 de abr. de 2022 17:26:30: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  16|1
+total_score: 60/70
+dabcb97

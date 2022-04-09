@@ -80,7 +80,7 @@ void enlarge(HashMap * map) {
     while(cont < map->capacity){
 
         if(aux[cont] && aux[cont]->key){
-            insert(map, aux[cont]->key, aux[cont]->value);
+            insertMap(map, aux[cont]->key, aux[cont]->value);
         }
         cont += 1;
     }
