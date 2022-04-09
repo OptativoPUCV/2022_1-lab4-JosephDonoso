@@ -74,7 +74,8 @@ void enlarge(HashMap * map) {
     */
 
     Pair** aux = map->buckets;
-    map->buckets = (Pair**) calloc(map->capacity*2,sizeof(Pair*));
+    map->capacity *= 2;
+    map->buckets = (Pair**) calloc(map->capacity, sizeof(Pair*));
     map->size = 0;
     long cont = 0;
     while(cont < map->capacity){
@@ -84,7 +85,6 @@ void enlarge(HashMap * map) {
         }
         cont += 1;
     }
-    map->capacity *= 2;
 
 }
 
