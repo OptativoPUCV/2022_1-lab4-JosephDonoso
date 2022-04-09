@@ -60,7 +60,17 @@ void insertMap(HashMap * map, char * key, void * value) {
 void enlarge(HashMap * map) {
     enlarge_called = 1; //no borrar (testing purposes)
 
+    HashMap* mapNuevo = createMap(map->capacity*2);
+    Pair* aux = firstMap(map);
 
+    while(aux){
+
+        insertMap(mapNuevo, aux->key, aux->value);
+
+        aux = nextMap(map);
+    }
+
+    map = mapNuevo;
 }
 
 
@@ -106,7 +116,7 @@ Pair * firstMap(HashMap * map) {
         map->current += 1;
     }
 
-    if(map->buckets[map->current]){
+    if(map->buckets[map->current] && map->buckets[map->current]->key != NULL){
         return map->buckets[map->current];
     }
     return NULL;
